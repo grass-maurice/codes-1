@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         print(urlStr)
         
         
+        
+        
         //URLオブジェクトを生成する。nilの場合はエラーにする。
         if let url:NSURL = NSURL(string: urlStr){
             let request = NSURLRequest(URL: url)
